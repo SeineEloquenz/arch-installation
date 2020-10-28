@@ -1,0 +1,33 @@
+# Maintainer Alexander Linder alexander-linder@gmx.de
+
+pkgname='al-arch-desktop-meta'
+pkgver=1.0
+pkgrel=1
+pkgdesc="Collection of packages as a base for my arch linux desktop systems"
+arch=(any)
+url="https://github.com/SeineEloquenz/arch-installation"
+depends=(al-arch-base-meta
+	 plasma-meta
+	 picom-ibhagwan-git
+	 firefox
+	 plasma-browser-integration
+	 ttf-roboto
+	 ttf-font-awesome
+	 noto-fonts-emoji-blob
+	 onedrive-abraunegg
+	 code
+	 dolphin
+	 fetchmirrors
+	 sxiv
+	 gparted
+	 i3-gaps
+	 i3blocks
+	 imagemagick
+	 kdeconnect
+	 konsole
+	 neofetch
+	 pacgraph
+	 zathura
+	 zathura-djvu
+	 zahtura-pdf-mupdf
+)

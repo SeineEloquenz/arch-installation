@@ -1,0 +1,18 @@
+# Maintainer Alexander Linder alexander-linder@gmx.de
+
+pkgname='al-arch-base-meta'
+pkgver=1.0
+pkgrel=1
+pkgdesc="Collection of packages as a base for my arch linux systems"
+arch=(any)
+url="https://github.com/SeineEloquenz/arch-installation"
+depends=(zsh
+	 zsh-theme-powerlevel10k-git
+	 picom-ibhagwan-git
+	 oh-my-zsh-git
+	 terminus-font
+	 nano
+	 wget
+	 ncdu
+	 htop
+)
